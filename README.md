@@ -103,7 +103,7 @@ car-dealership-management-system/
 ├── requirements.txt
 ├── .gitignore
 │
-├── main.py
+├── untitled2.ipynb
 ├── CarDealershipSystem.ui
 │
 ├── gui1.py
