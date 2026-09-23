@@ -170,3 +170,21 @@ Possible future improvements include:
 - Adding persistent vehicle and customer records
 - Adding booking management and reporting
 - Further improving the user interface
+
+  ## Screenshots
+
+### Login Screen
+
+![Login Screen](screenshots/Screenshot%202026-09-23%20144742.png)
+
+### Vehicle Management
+
+![Vehicle Management](screenshots/Screenshot%202026-09-23%20144835.png)
+
+### Customer Registration
+
+![Customer Registration](screenshots/Screenshot%202026-09-23%20144939.png)
+
+### Vehicle Booking
+
+![Vehicle Booking](screenshots/Screenshot%202026-09-23%20145052.png)
