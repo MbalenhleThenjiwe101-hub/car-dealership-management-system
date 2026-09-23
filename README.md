@@ -1,48 +1,116 @@
 # Car Dealership Management System
 
+A GUI-based Car Dealership Management System developed using Python and PyQt5 as part of my Visual Programming II coursework.
+
 ## Overview
 
-A GUI-based Car Dealership Management System developed as part of my Visual Programming II coursework.
+The application provides a graphical interface for managing different aspects of a car dealership, including vehicle information, customer registration and vehicle bookings.
 
-The system provides interfaces for managing vehicles, registering customers, and creating vehicle bookings.
+The system consists of four main interfaces:
+
+1. Login
+2. Vehicle Management
+3. Customer Registration
+4. Vehicle Booking
 
 ## Features
 
-- User login interface
-- Vehicle management
-- Customer registration
-- Vehicle booking
-- Data input and validation
-- Navigation between interfaces
+### Login
+
+The login interface provides fields for:
+
+- Username
+- Password
+
+It also provides Login and Cancel controls.
+
+### Vehicle Management
+
+The vehicle management interface captures:
+
+- Vehicle make
+- Vehicle model
+- Registration number
+- Price
+- Vehicle type
+- Availability
+
+Vehicle types include:
+
+- New Car
+- Used Car
+- SUV
+- Sedan
+- Hatchback
+- Bakkie
+
+Availability options include:
+
+- Available
+- Sold
+- Reserved
+
+### Customer Registration
+
+The customer registration interface captures:
+
+- Customer name
+- ID number
+- Phone number
+- Email
+- Customer type
+- Preferred contact method
+
+Customer types include:
+
+- Private Customer
+- Business Customer
+
+Preferred contact methods include:
+
+- Phone
+- Email
+- SMS
+
+### Vehicle Booking
+
+The vehicle booking interface captures:
+
+- Customer name
+- Vehicle registration number
+- Booking date
+- Booking status
+
+Booking statuses include:
+
+- Pending
+- Confirmed
+- Cancelled
 
 ## Technologies
 
 - Python
-- PyQt
-- GUI Programming
+- PyQt5
+- Qt Designer
+- Jupyter Notebook / Anaconda
 
-## System Interfaces
+## Project Structure
 
-### Login
-Allows users to enter their credentials and access the system.
-
-### Vehicle Management
-Allows vehicle information such as make, model, registration number, price, vehicle type and availability to be entered and managed.
-
-### Customer Registration
-Allows customer information to be captured, including contact details and customer type.
-
-### Vehicle Booking
-Allows users to create vehicle bookings by selecting a customer, vehicle, booking date and booking status.
-
-## Academic Context
-
-This project was developed as part of my INF2611 Visual Programming II coursework.
-
-## Future Improvements
-
-- Add persistent database storage
-- Improve authentication and security
-- Add vehicle search and filtering
-- Add booking management and reporting
-- Improve the user interface
+```text
+car-dealership-management-system/
+│
+├── README.md
+├── requirements.txt
+├── .gitignore
+│
+├── main.py
+├── CarDealershipSystem.ui
+│
+├── gui1.py
+├── gui1.ui
+├── gui2.py
+├── gui2.ui
+├── gui3.py
+├── gui3.ui
+├── gui4.py
+└── gui4.ui
