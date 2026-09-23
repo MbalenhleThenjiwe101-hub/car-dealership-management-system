@@ -1,5 +1,4 @@
 import sys
-sys.path.append(r"C:\Users\mbale\OneDrive\Desktop\assignemnts to do\CARDEALERSHIP")
 
 from PyQt5.QtWidgets import (
     QApplication,
