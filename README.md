@@ -1,32 +1,32 @@
 # Car Dealership Management System
 
-A GUI-based Car Dealership Management System developed using Python and PyQt5 as part of my Visual Programming II coursework.
+A desktop-based Car Dealership Management System developed using Python and PyQt5.
 
-## Overview
+## Project Overview
 
-The application provides a graphical interface for managing different aspects of a car dealership, including vehicle information, customer registration and vehicle bookings.
+This project is a graphical user interface (GUI) application designed to manage different aspects of a car dealership.
 
-The system consists of four main interfaces:
+The system consists of four main sections:
 
-1. Login
-2. Vehicle Management
-3. Customer Registration
-4. Vehicle Booking
+- Login
+- Vehicle Management
+- Customer Registration
+- Vehicle Booking
 
 ## Features
 
 ### Login
 
-The login interface provides fields for:
+The login screen allows a user to enter a username and password before accessing the system.
 
-- Username
-- Password
+**Demo Login:**
 
-It also provides Login and Cancel controls.
+- Username: `admin`
+- Password: `admin123`
 
 ### Vehicle Management
 
-The vehicle management interface captures:
+The Vehicle Management screen allows the user to enter:
 
 - Vehicle make
 - Vehicle model
@@ -35,7 +35,7 @@ The vehicle management interface captures:
 - Vehicle type
 - Availability
 
-Vehicle types include:
+Available vehicle types include:
 
 - New Car
 - Used Car
@@ -52,7 +52,7 @@ Availability options include:
 
 ### Customer Registration
 
-The customer registration interface captures:
+The Customer Registration screen allows the user to enter:
 
 - Customer name
 - ID number
@@ -74,7 +74,7 @@ Preferred contact methods include:
 
 ### Vehicle Booking
 
-The vehicle booking interface captures:
+The Vehicle Booking screen allows the user to enter:
 
 - Customer name
 - Vehicle registration number
@@ -87,25 +87,20 @@ Booking statuses include:
 - Confirmed
 - Cancelled
 
-## Technologies
+## Technologies Used
 
 - Python
 - PyQt5
 - Qt Designer
-- Jupyter Notebook / Anaconda
+- Anaconda / Jupyter Notebook
+- Git
+- GitHub
 
 ## Project Structure
-
 ```text
-car-dealership-management-system/
+Car Dealership Management System/
 │
-├── README.md
-├── requirements.txt
-├── .gitignore
-│
-├── untitled2.ipynb
-├── CarDealershipSystem.ui
-│
+├── main.py
 ├── gui1.py
 ├── gui1.ui
 ├── gui2.py
@@ -113,4 +108,65 @@ car-dealership-management-system/
 ├── gui3.py
 ├── gui3.ui
 ├── gui4.py
-└── gui4.ui
+├── gui4.ui
+├── CarDealershipSystem.ui
+├── requirements.txt
+├── .gitignore
+└── README.md
+```
+
+## How to Run
+
+### 1. Install the required dependencies
+
+Open Anaconda Prompt or a terminal and navigate to the project folder.
+
+Run:
+
+```bash
+pip install -r requirements.txt
+```
+
+### 2. Run the application
+
+Run:
+
+```bash
+python main.py
+```
+
+### 3. Login
+
+Use the demo credentials:
+
+```text
+Username: admin
+Password: admin123
+```
+
+## Skills Demonstrated
+
+- Python programming
+- PyQt5 GUI development
+- Qt Designer
+- Object-oriented programming
+- Event-driven programming
+- Form validation
+- Working with multiple Python modules
+- Git and GitHub
+
+## Academic Project
+
+This project was developed as part of my Visual Programming II coursework.
+
+## Future Improvements
+
+Possible future improvements include:
+
+- Connecting the application to a database
+- Adding stronger authentication
+- Adding search and filtering
+- Improving input validation
+- Adding persistent vehicle and customer records
+- Adding booking management and reporting
+- Further improving the user interface
